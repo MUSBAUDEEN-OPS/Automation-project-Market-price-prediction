@@ -1,0 +1,45 @@
+{
+    "model_name": "Linear Regression",
+    "features": [
+        "MA_5",
+        "MA_10",
+        "MA_20",
+        "MA_50",
+        "EMA_12",
+        "EMA_26",
+        "MACD",
+        "MACD_Signal",
+        "RSI",
+        "BB_Middle",
+        "BB_Upper",
+        "BB_Lower",
+        "Daily_Return",
+        "Price_Range",
+        "Price_Change",
+        "Volume_MA_5",
+        "Volume_Ratio",
+        "Volatility",
+        "Close_Lag_1",
+        "Volume_Lag_1",
+        "Close_Lag_2",
+        "Volume_Lag_2",
+        "Close_Lag_3",
+        "Volume_Lag_3",
+        "Close_Lag_5",
+        "Volume_Lag_5",
+        "Close_Lag_7",
+        "Volume_Lag_7"
+    ],
+    "test_rmse": 4.303789779772315,
+    "test_mae": 2.91076939054018,
+    "test_r2": 0.9719662368168341,
+    "train_date_range": [
+        "2020-03-13",
+        "2024-11-21"
+    ],
+    "test_date_range": [
+        "2024-11-22",
+        "2026-01-30"
+    ],
+    "training_date": "2026-02-03 08:42:40.235815"
+}
